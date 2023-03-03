@@ -1,0 +1,132 @@
+# Author: Isotoxal <isotoxal@proton.me>
+
+"attribute" = { fg = "blue" }
+"boolean" = { fg = "cyan" }
+"character" = { fg = "blue" }
+"comment" = { fg = "comment", italic = true }
+"conditional" = { fg = "red" }
+"constant" = { fg = "cyan" }
+"constant.builtin" = { fg = "blue" }
+"constant.macro" = { fg = "yellow" }
+"constructor" = { fg = "blue" }
+"exception" = { fg = "black-light" }
+"field" = { fg = "red" }
+"float" = { fg = "black-light" }
+"function" = { fg = "red" }
+"function.builtin" = { fg = "cyan-light" }
+"function.macro" = { fg = "green" }
+"include" = { fg = "red-light" }
+"keyword" = { fg = "blue" }
+"keyword.function" = { fg = "blue" }
+"keyword.operator" = { fg = "blue-light" }
+"keyword.return" = { fg = "blue" }
+"label" = { fg = "blue" }
+"method" = { fg = "blue-light" }
+"namespace" = { fg = "red-light" }
+"number" = { fg = "yellow" }
+"operator" = { fg = "white" }
+"parameter" = { fg = "red" }
+"parameter.reference" = { fg = "red-light" }
+"property" = { fg = "red" }
+"punctuation.bracket" = { fg = "white" }
+"punctuation.delimiter" = { fg = "white" }
+"punctuation.special" = { fg = "white" }
+"repeat" = { fg = "yellow-light" }
+"string" = { fg = "green" }
+"string.escape" = { fg = "blue" }
+"string.regex" = { fg = "green" }
+"string.special" = { fg = "blue" }
+"symbol" = { fg = "red" }
+"tag" = { fg = "blue" }
+"tag.attribute" = { fg = "red" }
+"tag.delimiter" = { fg = "white" }
+"text" = { fg = "white" }
+"text.danger" = { fg = "black-light" }
+"text.emphasis" = { fg = "white", italic = true }
+"text.environment.name" = { fg = "yellow" }
+"text.environtment" = { fg = "magenta" }
+"text.literal" = { fg = "green", italic = true }
+"text.math" = { fg = "cyan" }
+"text.note" = { fg = "black-light" }
+"text.reference" = { fg = "cyan" }
+"text.strike" = { fg = "white", strikethrough = true }
+"text.strong" = { fg = "white", bold = true }
+"text.title" = { fg = "yellow", bold = true }
+"text.underline" = { fg = "magenta", underline = true }
+"text.uri" = { fg = "yellow", underline = true }
+"text.warning" = { fg = "black", bg = "red" }
+"type" = { fg = "yellow" }
+"type.builtin" = { fg = "yellow" }
+"variable" = { fg = "white" }
+"variable.builtin" = { fg = "blue" }
+
+"diff.plus" = { fg = "blue" }
+"diff.delta" = { fg = "magenta" }
+"diff.minus" = { fg = "red" }
+
+"ui.background" = { fg = "foreground", bg = "background" }
+"ui.cursor" = { modifiers = ["reversed"] }
+#"ui.cursor.match" = { fg = "orange", modifiers = ["bold"] }
+# "ui.cursor.primary" = { modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "cursorline" }
+"ui.help" = { fg = "foreground", bg = "contrast" }
+"ui.linenr" = { fg = "comment" }
+"ui.linenr.selected" = { fg = "foreground" }
+"ui.menu" = { fg = "foreground", bg = "contrast" }
+"ui.menu.selected" = { bg = "black" }
+"ui.popup" = { fg = "foreground", bg = "contrast" }
+"ui.selection" = { bg = "black" }
+"ui.selection.primary" = { bg = "black" }
+"ui.statusline" = { fg = "foreground", bg = "backound" }
+"ui.statusline.inactive" = { fg = "foreground", bg = "backgoround" }
+"ui.statusline.normal" = { fg = "white", bg = "background" }
+"ui.statusline.insert" = { fg = "blue", bg = "background" }
+"ui.statusline.select" = { fg = "cyan", bg = "magenta" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "blue" }
+"ui.virtual.ruler" = { bg = "comment" }
+"ui.virtual.whitespace" = { fg = "comment" }
+"ui.window" = { fg = "black" }
+
+"error" = { fg = "red" }
+"hint" = { fg = "green" }
+"warning" = { fg = "yellow" }
+"info" = { fg = "blue" }
+"diagnostic.error" = { underline = { style = "curl", color = "red" } }
+"diagnostic.warning" = { underline = { style = "curl", color = "yellow" } }
+"diagnostic.info" = { underline = { style = "curl", color = "blue" } }
+"diagnostic.hint" = { underline = { style = "curl", color = "green" } }
+"special" = { fg = "orange" }
+
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.list" = { fg = "cyan" }
+"markup.bold" = { fg = "magenta", modifiers = ["bold"] }
+"markup.italic" = { fg = "yellow", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "green" }
+"markup.link.text" = { fg = "black-light" }
+"markup.quote" = { fg = "yellow", modifiers = ["italic"] }
+"markup.raw" = { fg = "cyan" }
+
+[palette]
+black = "#232a2d"
+red = "#e57474"
+green = "#8ccf7e"
+yellow = "#e5c76b"
+blue = "#67b0e8"
+magenta = "#c47fd5"
+cyan = "#6cbfbf"
+white = "#b3b9b8"
+black-light = "#2d3437"
+red-light = "#ef7e7e"
+green-light = "#96d988"
+yellow-light = "#f4d67a"
+blue-light = "#71baf2"
+magenta-light = "#ce89df"
+cyan-light = "#67cbe7"
+white-light = "#bdc3c2"
+comment = "#404749"
+contrast = "#161d1f"
+background = "#141b1e"
+foreground = "#dadada"
+cursorline = "#2c3333"
